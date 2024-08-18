@@ -1,0 +1,142 @@
+.Header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: white(0, 0, 0);
+    /* border-radius: 50px; */
+} 
+#logo{
+    width: 200px;
+    height: 200px;
+   
+}
+#logo img{
+    width: 150%;
+}
+#logo img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+#name{
+    width: 60%;
+    display: flex;
+    color: black;
+    align-items: center;
+    margin-left: 300px;
+    font-size: 50px;
+    font-weight: 100;
+}
+#name:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: rgb(135, 28, 62);
+    
+}
+
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.Heading:hover{
+  transform: scale(1.2);
+  transition: 1s;
+  color: #48b298;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+    margin: 10px auto ;
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 60px;
+    height: 60px;
+    color: rgb(6, 6, 6);
+    font-size: 40px;
+
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 80px;
+}
+
+#GetPuzzle,#SolvePuzzle{
+    background-color: #03131797;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+#GetPuzzle:hover{
+    transform: scale(1.2);
+    transition: .4s;
+    color: rgb(250, 250, 250)
+}
+#SolvePuzzle:hover{
+    transform: scale(1.2);
+    transition: .4s;
+    color: rgb(250, 250, 250);
+}
+.box1{
+    background-color: whitesmoke;
+    border: 2px solid  black;
+}
+
+.box1:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.box2{
+    background-color: whitesmoke;
+    border: 2px solid  black;
+}
+.box2:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.box3{
+    background-color: whitesmoke;
+    border: 2px solid  black;
+}
+.box3:hover{
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.bl{
+    border-left: 4px solid black(166, 69, 69);
+}
+
+.bb{
+    border-bottom: 4px solid black(136, 24, 24);
+}
+
+.br{
+    border-right: 4px solid black(195, 127, 127);
+}
+
+.bt{
+    border-top: 4px solid black;
+}
